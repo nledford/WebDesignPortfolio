@@ -1,0 +1,315 @@
+
+{
+    "timeline":
+    {
+        "headline":"A History of MUTEMATH",
+        "type":"default",
+		"startDate":"1976,1,1",
+		"text":"From Earthsuit to the present.",
+        "date": [
+			{
+				"startDate":"1976,7,2",
+				"headline":"Paul Meany is born",
+				"text":"",
+				"asset":
+				{
+					"media":"http://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Paul_Meany.jpg/640px-Paul_Meany.jpg",
+					"credit":"Tommy Gun Photography",
+					"caption":""
+				}
+			},
+			{
+				"startDate":"1977,7,25",
+				"headline":"Roy Mitchell-Cárdenas is born in Houston, Texas",
+				"text":"",
+				"asset":
+				{
+					"media":"http://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Roy_portland_2009.10.06.jpg/640px-Roy_portland_2009.10.06.jpg",
+					"credit":"Wikipedia",
+					"caption":""
+				}
+			},
+			{
+				"startDate":"1982,6,25",
+				"headline":"Darren King is born near Marshfield, Missouri",
+				"text":"",
+				"asset":
+				{
+					"media":"http://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/DarrenKing_portland_2009.10.06.jpg/640px-DarrenKing_portland_2009.10.06.jpg",
+					"credit":"Wikipedia",
+					"caption":"Better known as the real-life Jesus"
+				}
+			},
+            {
+                "startDate":"1995,1,1",
+                "headline":"Earthsuit is formed",
+                "text":"The band includes future MUTEMATH members Paul Meany and Roy Mitchell",
+				"asset":
+				{
+					"media":"http://upload.wikimedia.org/wikipedia/en/5/58/EarthsuitPromo.jpg",
+					"credit":"Wikipedia",
+					"caption":""
+				}
+            },
+            {
+                "startDate":"1997,1,1",
+                "headline":"Earthsuit releases <i>The Headless Clown EP</i>",
+                "text":"",
+				"asset":
+				{
+					"media":"http://upload.wikimedia.org/wikipedia/en/1/14/EarthsuitHeadlessClown.jpg",
+					"credit":"Wikipedia",
+					"caption":""
+				}
+            },
+			{
+				"startDate":"1998,1,1",
+				"headline":"Earthsuit releases <i>Noise for Your Eyes EP</i>",
+				"text":"",
+				"asset":
+				{
+					"media":"http://upload.wikimedia.org/wikipedia/en/5/58/NoiseForYourEyes.jpg",
+					"credit":"Wikipedia",
+					"caption":""
+				}
+			},
+			{
+                "startDate":"2000,6,20",
+                "headline":"Earthsuit releases <i>Kaleidoscope Superior</i>",
+                "text":"",
+				"asset":
+				{
+					"media":"http://upload.wikimedia.org/wikipedia/en/5/5a/Es-kaleidoscope-superior.png",
+					"credit":"Wikipedia",
+					"caption":""
+				}
+            },
+			{
+				"startDate":"2000,8,1",
+				"headline":"<i>One Time</i> music video is released",
+				"text":"",
+				"asset":
+				{
+					"media":"http://youtu.be/vTvX2_t2QD4",
+					"credit":"EMI Music",
+					"caption":""
+				}
+			},
+			{
+				"startDate":"2001,1,1",
+				"headline":"Paul Meany and Darren King begin exchanging mix tapes and performing under the monkier <i>MATH</i>",
+				"text":""
+			},
+			{
+				"startDate":"2003,1,1",
+				"headline":"Paul Meany co-founds the independant record label Teleprompt Records",
+				"text":"The label's sole purpose is promoting and distributing MUTEMATH records",
+				"asset":
+				{
+					"media":"http://teleprompt.com/tele_logo.jpg",
+					"credit":"Teleprompt Records",
+					"caption":""
+				}
+			},
+			{
+				"startDate":"2003,11,1",
+				"headline":"Earthsuit releases their final album, <i>The Rise of Modern Simulation</i>.",
+				"text":"At the same time, Paul recruited guitarist Greg Hill and, with Darren King, began recording the <i>RESET EP</i>",
+				"asset":
+				{
+					"media":"http://upload.wikimedia.org/wikipedia/en/3/34/Es-troms.png",
+					"credit":"Wikipedia",
+					"caption":""
+				}
+			},
+			{
+                "startDate":"2003,1,1",
+                "headline":"MUTEMATH is formed",
+                "text":"",
+				"asset":
+				{
+					"media":"../img/timeline/band.jpg",
+					"credit":"Jeremy Snell Photography",
+					"caption":"Or as I like to call them, God"
+				}
+            },
+			{
+                "startDate":"2004,9,28",
+                "headline":"<i>RESET EP</i> is released",
+                "text":"",
+				"asset":
+				{
+					"media":"../img/albums/resetep.jpg",
+					"credit":"Wikipedia",
+					"caption":""
+				}
+            },
+
+			{
+                "startDate":"2006,9,26",
+                "headline":"<i>MUTEMATH</i> is released",
+                "text":"<p><i>Live at the El Rey</i> is a limited edition EP released included with the first pressing of the album.",
+				"asset":
+				{
+					"media":"../img/albums/mutemath.jpg",
+					"credit":"Wikipedia",
+					"caption":"This album is totally awesome."
+				}
+            },
+			{
+				"startDate":"2007,3,20",
+				"headline":"<i>Flesh & Bones Electric Fun</i> DVD is released",
+				"text":"",
+				"asset":
+				{
+					"media":"http://youtu.be/615YASvYDW4",
+					"credit":"Teleprompt Records",
+					"caption":"Some of you may remember this..."
+				}
+			},
+			{
+                "startDate":"2007,3,21",
+                "headline":"<i>Typical</i> music video is released",
+                "text":"The video was nominated for a Grammy award for \"Best Short Form Video\" on December 6th, 2007",
+                "asset":
+                {
+                    "media":"http://youtu.be/7XVWR-5fiG0",
+                    "credit":"Teleprompt Records",
+                    "caption":""
+                }
+            },
+			{
+				"startDate":"2008,1,12",
+				"endDate":"2008,1,19",
+				"headline":"<i>Control</i> music video is filmed but never released",
+				"text":""
+			},
+			{
+				"startDate":"2008,11,4",
+				"headline":"<i>Spotlight</i> is released as part of the Twilight soundtrack",
+				"text":""
+			},
+			{
+				"startDate":"2009,2,10",
+				"headline":"<i>Spotlight EP is released",
+				"text":"",
+				"asset":
+				{
+					"media":"../img/albums/spotlightep.jpg",
+					"credit":"Wikipedia",
+					"caption":""
+				}
+			},
+			{
+				"startDate":"2009,4,17",
+				"headline":"<i>Spotlight</i> music video is released",
+				"text":"",
+				"asset":
+				{
+					"media":"http://youtu.be/Ry6GAwDCI2I",
+					"credit":"Teleprompt Records",
+					"caption":""
+				}
+			},
+			{
+				"startDate":"2009,8,8",
+				"headline":"<i>Armistice</i> is released",
+				"text":"",
+				"asset":
+				{
+					"media":"../img/albums/armistice.jpg",
+					"credit":"Wikipedia",
+					"caption":""
+				}
+			},
+			{
+				"startDate":"2009,11,25",
+				"headline":"<i>Backfire</i> music video is released",
+				"text":"",
+				"asset":
+				{
+					"media":"http://youtu.be/1_t7E7gEDk8",
+					"credit":"Teleprompt Records",
+					"caption":""
+				}
+			},
+			{
+				"startDate":"2010,3,20",
+				"headline":"MUTEMATH performs unreleased <i>The Fight</i> at a Haiti benefit concert",
+				"text":"The concert took place at the Howlin' Wolf club in New Orleans, LA",
+				"asset":
+				{
+					"media":"http://youtu.be/oU_ERfFT46U",
+					"credit":"Teleprompt Records",
+					"caption":""
+				}
+			},
+			{
+				"startDate":"2010,10,1",
+				"headline":"Guitarist Greg Hill leaves the band",
+				"text":"",
+				"asset":
+				{
+					"media":"../img/timeline/greghill.jpg",
+					"credit":"Alex Ramon Photography",
+					"caption":""
+				}
+			},
+			{
+				"startDate":"2010,10,12",
+				"headline":"<i>Armistice Live</i> is released",
+				"text":"",
+				"asset":
+				{
+					"media":"http://youtu.be/C-ODsDTPbm0",
+					"credit":"Teleprompt Records",
+					"caption":""
+				}
+			},
+			{
+				"startDate":"2011,7,18",
+				"headline":"<i>Odd Soul</i> music video is released",
+				"text":"",
+				"asset":
+				{
+					"media":"http://youtu.be/kvrfoU3SS4U",
+					"credit":"Teleprompt Records",
+					"caption":""
+				}
+			},
+			{
+				"startDate":"2011,9,22",
+				"headline":"<i>Blood Pressure</i> music video is released",
+				"text":"",
+				"asset":
+				{
+					"media":"http://youtu.be/cv2mjAgFTaI",
+					"credit":"Teleprompt Records",
+					"caption":""
+				}
+			},
+			{
+				"startDate":"2011,10,4",
+				"headline":"<i>Odd Soul</i> is released",
+				"text":"",
+				"asset":
+				{
+					"media":"../img/albums/odd_soul.jpg",
+					"credit":"Wikipedia",
+					"caption":""
+				}
+			},
+			{
+				"startDate":"2012,2,17",
+				"headline":"<i>Allies</i> music video is released",
+				"text":"",
+				"asset":
+				{
+					"media":"http://youtu.be/TYwUrEreThM",
+					"credit":"Teleprompt Records",
+					"caption":""
+				}
+			}
+        ]
+    }
+}

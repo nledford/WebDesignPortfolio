@@ -1,0 +1,94 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>MUTEMATH</title>
+  <meta name="description" content="">
+
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="js/tweet/jquery.tweet.css">
+</head>
+<body>
+  <!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
+    <div id="wrapper">
+        <header onClick="location.href='index.html'">
+            &nbsp;
+        </header>
+        
+        <div role="main" id="main">
+      		<nav>
+            	<ul>
+                	<li><a href="index.html" id="current">Home</a></li>
+                    <li><a href="pages/history.html">History</a></li>
+                    <li><a href="pages/music.html">Music</a></li>
+                    <li><a href="pages/gallery.html">Gallery</a></li>
+                    <li><a href="pages/links.html">Links</a></li>
+                </ul>
+            </nav>
+            
+            <article>
+               	
+                
+            	<section>
+                    <img src="img/homeimg.jpg" alt="MUTEMATH">
+                    
+                    <p><a href="http://www.mutemath.com">MUTEMATH</a> is a Grammy-nominated alternative rock band from New Orleans, LA.  The band consists of vocalist Paul Meany, drummer Darren King, bassist Roy Mitchell-Cárdenas, and guitarist Todd Gummerman.  Formed from the remains of experimental Christian rock band Earthsuit, the band has built a reputation for blending typically adverse genres into their own unique creations and has been hailed by Alternative Press as "the number one band to see before you die". To date, MUTEMATH has released three studio albums along with two live records and two EPs.</p>
+                </section>
+            
+            	<div>
+                	<h5>Facebook</h5>
+                    <!-- Facebook "like" box -->
+                    <div id="facebook">
+                        <iframe src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2Fmutemath&amp;width=292&amp;height=290&amp;colorscheme=light&amp;show_faces=true&amp;border_color&amp;stream=false&amp;header=true&amp;appId=154631844566184" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:292px; height:290px;" allowTransparency="true"></iframe>
+                    </div>
+                </div>
+                    
+               	<div>
+                    <h5>Twitter</h5>
+                    <!-- Twitter feed -->
+                    <div id="twitter"></div>
+                </div>
+                    
+                <div id="newsletter">
+                    <h5>Newsletter</h5>
+                    
+                    <!-- Email subscription form -->
+                    <p>Sign up for the MUTEMATH newsletter and be the first to know about future tours and releases</p>
+                    <form>
+                    	<input type="email" name="email" id="email" size="25" maxlength="50" value="" placeholder="example@gmail.com">
+                        <input type="submit" id="submit" value="Subscribe">
+                    </form>
+                </div>
+           </article>
+        </div>
+    </div>
+    
+    <footer>
+    	<div class="container">
+    		All Material &copy;2012 MUTEMATH, Teleprompt, and Warner Bros. Records
+        </div>
+    </footer>
+
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+  <script src="js/tweet/jquery.tweet.js"></script>
+
+  <script src="js/plugins.js"></script>
+  <script src="js/script.js"></script>
+  
+  <script>
+  	$("#twitter").tweet({
+          avatar_size: 32,
+          count: 3,
+          fetch: 20,
+          filter: function(t){ return ! /^@\w+/.test(t.tweet_raw_text); },
+          username: "mutemath"
+        });
+  </script>
+</body>
+</html>

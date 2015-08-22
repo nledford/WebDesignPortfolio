@@ -1,0 +1,410 @@
+/*
+Goldilocks Approach to Responsive Web Design Boilerplate
+
+Author: Design by Front - @designbyfront
+Version: 0.1
+URL: http://www.goldilocksapproach.com
+----------------------------------------------------------------------------------------
+
+CONTENTS - GLOBAL.CSS
+-----------------------------------------
+1. RESET
+2. ROOT
+3. CORE TYPOGRAPHY
+4. LINKS
+5. GLOBAL LAYOUT & GLOBAL CUSTOM TYPOGRAPHY
+6. CUSTOM LAYOUT & TYPOGRAPHY (Baby bear)
+7. BROWSER AND NON-SEMANTIC STYLING
+
+CONTENTS - LAYOUT.CSS
+-----------------------------------------
+8. CUSTOM LAYOUT & TYPOGRAPHY (Daddy bear)
+9. CUSTOM LAYOUT & TYPOGRAPHY (Mummy bear)
+
+*/
+
+@import url(http://fonts.googleapis.com/css?family=Droid+Sans:400,700|Vollkorn:400italic,400,700);
+
+/* 1. RESET
+----------------------------------------------------------------------------------------*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size:100%;
+  font: inherit;
+  vertical-align: baseline;
+  }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+  }
+  
+  
+/* 2. ROOT
+----------------------------------------------------------------------------------------*/
+html { 
+  overflow-y: scroll;
+  background: #FFF;
+  }
+
+/* /ht Ethan Marcotte - http://front.ie/l8rJaA */
+img, embed, object, video { max-width: 100%; }
+.ie6 img.full, .ie6 object.full, .ie6 embed, .ie6 video { width: 100%; }
+
+
+/* 3. CORE TYPOGRAPHY
+----------------------------------------------------------------------------------------*/
+body {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1em;
+  line-height: 1.618em;
+  color: #333;
+  }
+
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 0.809em;
+  line-height: 1em;
+  }
+
+p, ul, ol, dl, blockquote {
+    font-size: 1em;
+    line-height: 1.618em;
+    margin-bottom: 1.618em; 
+    max-width: 30em; /* Optimal width for long-form text */
+  }
+    
+ul { list-style-type: disc; margin-left: 1.618em; }
+ol { list-style-type: decimal; margin-left: 1.618em; }
+nav ul, nav ol { list-style: none; margin: 0; padding: 0;}
+
+b, strong { font-weight: bold; }
+i, em { font-style: italic; }
+small { font-size: 80%; }
+
+
+/* 4. LINKS
+----------------------------------------------------------------------------------------*/
+a, a:visited { outline: none; color: #439BBD; text-decoration: none; }  
+a:hover { outline: none; }  
+a:active, a:focus { outline: none; }
+
+
+/* 5. GLOBAL LAYOUT & GLOBAL CUSTOM TYPOGRAPHY
+----------------------------------------------------------------------------------------*/
+
+html {
+	background: #0b0805 url(../images/dark_Tire.png);
+}
+
+body {
+	color: white;
+	font-family: 'Droid Sans', sans-serif;
+	font-weight: 300;
+}
+
+a, a:visited {
+	color: #002a0d;
+}
+
+a:hover {
+	color: #006921;
+}
+
+h1 {
+	font-family: 'Vollkorn', serif;
+}
+
+#bunny {
+	max-width: 15em;
+	display: block;
+	margin: 1em auto;
+	
+	padding: 5px;
+	background-color: white;
+	border: 1px solid #ccc;
+}
+
+.center {
+	text-align: center;
+}
+
+.right {
+	float: right;
+}
+
+/* --- Header --- */
+header {
+	text-align: center;
+}
+
+#header-top {
+	width: 100%;
+	height: 2.6em;
+	border-bottom: 1px solid #15110f;
+	
+	-webkit-box-shadow: 0px 2px 10px #0b0805;
+	   -moz-box-shadow: 0px 2px 10px #0b0805;
+	   		box-shadow: 0px 2px 10px #0b0805;
+	
+	background: #6f391f;
+	background: -moz-linear-gradient(top,  #6f391f 0%, #2c160c 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#6f391f), color-stop(100%,#2c160c));
+	background: -webkit-linear-gradient(top,  #6f391f 0%,#2c160c 100%);
+	background: -o-linear-gradient(top,  #6f391f 0%,#2c160c 100%);
+	background: -ms-linear-gradient(top,  #6f391f 0%,#2c160c 100%);
+	background: linear-gradient(top,  #6f391f 0%,#2c160c 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6f391f', endColorstr='#2c160c',GradientType=0 );
+}
+
+#logo {
+	float: left;
+	margin: 0;
+	padding: 12.5px 0.5em 0.2em 2.5%;
+	z-index: 6;
+}
+
+#logo img {
+	max-width: 100px;
+}
+
+nav {
+	top: 0px;
+	right: 2.5%;
+	z-index: 999;
+}
+
+nav #current {
+	color: #00cb10;
+}
+
+nav select {
+	display: inline-block;
+	position: absolute;
+	top: 1em;
+	right: 2.5%;
+}
+
+nav ul {
+	display: none;
+}
+
+nav ul li {
+	display: inline-block;
+	line-height: 2.6em;
+	padding: 0 9px;
+}
+
+nav a, nav a:visited {
+	color: white;
+	text-shadow: 0px 1px 1px #9d601f;
+	font-size: .8em;
+}
+
+nav a:hover {
+	color: #00cb10;
+}
+
+/* --- footer --- */
+footer {
+	border-top: 1px solid white;
+	padding: 1.8em 1.8em 4em;
+	background: #15110f;
+	font-size: 0.7em;
+}
+footer a, footer a:visited {
+	color:#05cd15;
+}
+footer a:hover {
+	color: #04e318;
+}
+footer img {
+	-webkit-opacity: 0.8;
+	   -moz-opacity: 0.8;
+	   		opacity: 0.8;
+}
+footer img:hover {
+	-webkit-opacity: 1.0;
+	   -moz-opacity: 1.0;
+	   		opacity: 1.0;
+}
+footer #footer-left {
+	float: left;
+}
+
+footer #footer-right {
+	float: right;
+	text-align: right;
+	display:none;
+}
+
+/* --- videos --- */
+
+iframe {
+	max-width: 100%;
+}
+
+#video-holder {
+	display: none;
+	
+	max-width: 40em;
+	margin: 0 auto;
+	
+	padding: 10px 10px 5px;
+	background: #ccc;
+	
+	-webkit-box-shadow: 0px 1px 1px #999;
+	   -moz-box-shadow: 0px 1px 1px #999;
+	   		box-shaodw: 0px 1px 1px #999;
+	
+	-webkit-border-radius: 10px;
+	   -moz-border-radius: 10px;
+	   		border-radius: 10px;
+	
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	   		box-sizing:	border-box;
+}
+
+/* --- container --- */
+#introParagraph {
+	margin-bottom: 0;
+	margin-top: 1.618em;
+}
+
+#page {
+	max-width: 30em;
+	background: white;
+	color: #666;
+	padding: 1em;
+	margin: 0 auto 0;
+	text-align: justify;
+}
+
+#page h1 {
+	margin: 1.5em 0 0.618em;
+	font-size: 2em;
+	color: #131313;
+}
+
+#buyNow {
+	margin: 0 auto;
+	display: block;
+	text-align: center;
+	width: 10em;
+	font-size: 1.2em;
+	color: white;
+	background: #3e260c;
+	border: 0;
+	
+	-webkit-border-radius: 10px;
+	   -moz-border-radius: 10px;
+	   		border-radius: 10px;
+	
+	-webkit-box-shadow: 0px 1px 5px black;
+	   -moz-box-shadow: 0px 1px 5px black;
+	   		box-shadow: 0px 1px 5px black;
+}
+
+#buyNow:hover {
+	background: #6f391f;
+	
+	-webkit-box-shadow: 0px 1px 2px black;
+	   -moz-box-shadow: 0px 1px 2px black;
+	   		box-shadow: 0px 1px 2px black;
+}
+
+/* --- Image Gallery --- */
+.galleryThumbs {
+	-webkit-column-count: 2;
+	   -moz-column-count: 2;
+	   		column-count: 2;
+	
+	text-align: center;
+}
+
+.gallery img {
+	padding: 5px;
+	background: white;
+	border: 1px solid #ccc;
+}
+
+.gallery img:hover {
+	-webkit-box-shadow: 1px 1px 5px #999;
+	   -moz-box-shadow: 1px 1px 5px #999;
+	   		box-shadow: 1px 1px 5px #999;
+}
+
+/* --- Login box --- */
+/* Mask for background, by default is not display */
+#mask {
+	display: none;
+	background: #000; 
+	position: fixed; left: 0; top: 0; 
+	z-index: 10;
+	width: 100%; height: 100%;
+	opacity: 0.8;
+	z-index: 999;
+}
+
+/* You can customize to your needs  */
+.login-popup{
+	display:none;
+	background: #333;
+	padding: 1em; 	
+	border: 2px solid #ddd;
+	float: left;
+	font-size: 1em;
+	position: fixed;
+	top: 50%; left: 50%;
+	width: 20em;
+	height: 10em;
+	z-index: 99999;
+	box-shadow: 0px 0px 20px #999; /* CSS3 */
+        -moz-box-shadow: 0px 0px 20px #999; /* Firefox */
+        -webkit-box-shadow: 0px 0px 20px #999; /* Safari, Chrome */
+	border-radius:3px 3px 3px 3px;
+        -moz-border-radius: 3px; /* Firefox */
+        -webkit-border-radius: 3px; /* Safari, Chrome */
+}
+#registration div {
+	display: block;
+	width: 100%;
+}
+label {
+	display: block;
+}
+.wide {
+	max-width: 30em;
+	width: 100%;
+	font-size: 1em;
+}
+
+/* 6. CUSTOM LAYOUT & TYPOGRAPHY (Baby bear)
+----------------------------------------------------------------------------------------*/
+#container {
+    padding: 0.809em;
+    max-width: 30em;
+    margin: auto;
+  }
+
+aside { width: 100%; }
+
+
+/* 7. BROWSER AND NON-SEMANTIC STYLING
+----------------------------------------------------------------------------------------*/
+.cf:before, .cf:after { content: ""; display: block; }
+.cf:after { clear: both; }
+.ie6 .cf { zoom: 1 }
